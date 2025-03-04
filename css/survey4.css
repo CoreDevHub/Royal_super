@@ -1,0 +1,38 @@
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    color: #030403;
+    font-size: 40px;
+    font-weight: bold;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* color: blue; */
+}
+user agent stylesheet
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-black);
+    margin: 0;
+}
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b3f;
+    --color-darkblue-alpha: rgba(47, 27, 50, 0.8);
+    --color-green: #37af6f;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* color: blue; */
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* color: blue; */
+}

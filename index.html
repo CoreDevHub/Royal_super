@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/survey1.css">
+    <link rel="stylesheet" href="css/survey2.css">
+    <link rel="stylesheet" href="css/survey3.css">
+    <link rel="stylesheet" href="css/survey4.css">
+    <link rel="stylesheet" href="css/survey5.css">
+    <link rel="stylesheet" href="css/survey6.css">
+    <link rel="stylesheet" href="css/survey7.css">
+    <link rel="stylesheet" href="css/survey8.css">
+    <link rel="stylesheet" href="css/survey9.css">
+    <link rel="stylesheet" href="css/survey10.css">
+    <link rel="stylesheet" href="css/survey11.css">
+    <link rel="stylesheet" href="css/survey12.css">
+    <link rel="stylesheet" href="css/survey13.css">
+    <link rel="stylesheet" href="css/survey14.css">
+    <link rel="stylesheet" href="css/survey15.css">
+    <link rel="stylesheet" href="css/survey16.css">
+    <link rel="stylesheet" href="css/survey17.css">
+    <link rel="stylesheet" href="css/survey19.css">
+    <link rel="stylesheet" href="css/survey20.css">
+    <link rel="stylesheet" href="css/survey21.css">
+    <link rel="stylesheet" href="css/survey22.css">
+    <link rel="stylesheet" href="css/survey23.css">
+    <link rel="stylesheet" href="css/survey24.css">
+    <link rel="stylesheet" href="css/survey25.css">
+    <link rel="stylesheet" href="css/survey26.css">
+    <link rel="stylesheet" href="css/survey27.css">
+    <link rel="stylesheet" href="css/survey28.css">
+    <link rel="stylesheet" href="css/survey29.css">
+    <link rel="stylesheet" href="css/survey30.css">
+    <link rel="stylesheet" href="css/survey31.css">
+    <link rel="stylesheet" href="css/survey32.css">
+    <link rel="stylesheet" href="css/survey33.css">
+    <link rel="stylesheet" href="css/survey34.css">
+    <link rel="stylesheet" href="css/survey35.css">
+    <link rel="stylesheet" href="css/survey36.css">
+    <link rel="stylesheet" href="css/survey37.css">
+    <link rel="stylesheet" href="css/survey38.css">
+    <link rel="stylesheet" href="css/survey39.css">
+    <link rel="stylesheet" href="css/survey40.css">
+    <link rel="stylesheet" href="css/survey42.css">
+    <link rel="stylesheet" href="css/survey43.css">
+    <link rel="stylesheet" href="css/survey44.css">
+    <link rel="stylesheet" href="css/survey45.css">
+    <link rel="stylesheet" href="css/survey46.css">
+    <link rel="stylesheet" href="css/survey47.css">
+    <link rel="stylesheet" href="css/survey48.css">
+    <link rel="stylesheet" href="css/survey49.css">
+    <link rel="stylesheet" href="css/survey50.css">
+    <link rel="stylesheet" href="css/survey51.css">
+    <link rel="stylesheet" href="css/survey52.css">
+    <link rel="stylesheet" href="css/survey53.css">
+
+   
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Royal Super Lubricant</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="18"
+            max="60"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your satisfaction with our products?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Excellent</option>
+            <option value="job">Very Good</option>
+            <option value="learner">Good</option>
+            <option value="preferNo">Bad</option>
+            <option value="other">Very Bad</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend our products to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is your favorite feature of Royal Super?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="challenges">Quality</option>
+            <option value="projects">Packaging</option>
+            <option value="community">Community</option>
+            <option value="openSource">Marketing</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What would you like to see improved?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Labelling</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Container Shape</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Marketing</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Web Page</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />Community</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="gitter-help-rooms"
+              type="checkbox"
+              class="input-checkbox"
+            />AutoShow Meetups</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="videos"
+              type="checkbox"
+              class="input-checkbox"
+            />Videos</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="city-meetups"
+              type="checkbox"
+              class="input-checkbox"
+            />ATF And Fluids Quality</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="wiki"
+              type="checkbox"
+              class="input-checkbox"
+            />Anti-Freez Quality</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="forum"
+              type="checkbox"
+              class="input-checkbox"
+            />Filter Quality</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="additional-courses"
+              type="checkbox"
+              class="input-checkbox"
+            />Oil Quality</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button" action="action_mysurveypage.php" method="POST">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
