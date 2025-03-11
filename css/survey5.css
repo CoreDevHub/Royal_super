@@ -8,6 +8,13 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     
 }
+#title {
+    color: white;
+}
+
+#description {
+     color: white;
+}
 h1, p {
     margin-top: 0;
     margin-bottom: 0.5rem;
